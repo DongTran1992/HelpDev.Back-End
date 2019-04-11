@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\ADO\" />
+    <Folder Include="Data\EF\" />
+    <Folder Include="Data\Dapper\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HelpDev.core\HelpDev.core.csproj" />
+  </ItemGroup>
+
+</Project>
